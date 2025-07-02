@@ -21,7 +21,4 @@ Each Minimal Interoperability Mechanism is composed of:
 - Interoperability Guidance
 - Conformance and Compliance Testing
 
-This Minimal Interoperability Mechanism is accompanied by:
-- A Readers Guide
-
 For more information on how to contribute and how decisions are made, please see [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md).
