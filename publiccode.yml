@@ -1,0 +1,42 @@
+---
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: Authors
+---
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - collaboration
+  - project-collaboration
+description:
+  en:
+    features:
+      - enables data access
+    genericName: mim: data access
+    localisedName: Data Access Minimum Interoperability Mechanism
+    longDescription: |
+    shortDescription: |-
+      The minimal interoperability mechanisms (MIMs) enable a minimal but sufficient level of interoperability for data, systems, and services.
+developmentStatus: beta
+landingURL: 
+legal:
+  authorsFile: 
+  license: CC0-1.0
+  mainCopyrightOwner: The contributors
+  repoOwner: Open & Agile Smart Cities
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+  type: internal
+name: Data Access Minimum Interoperability Mechanism
+platforms:
+  - web
+releaseDate: 
+roadmap: 
+softwareType: standalone/other
+softwareVersion: 
+url: 
+usedBy:
+
