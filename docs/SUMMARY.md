@@ -10,3 +10,4 @@
 # Summary
 
 - [Home](README.md)
+- [Capabilities and Requirements](../capabilities-and-requirements/capabilities-and-requirements.md)
