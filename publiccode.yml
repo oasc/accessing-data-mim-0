@@ -10,9 +10,9 @@ categories:
 description:
   en:
     features:
-      - enables data access
-    genericName: mim: data access
-    localisedName: Data Access Minimum Interoperability Mechanism
+      - enables accessing data
+    genericName: mim: accessing data
+    localisedName: Accessing Data Minimum Interoperability Mechanisms 
     longDescription: |
     shortDescription: |-
       The minimal interoperability mechanisms (MIMs) enable a minimal but sufficient level of interoperability for data, systems, and services.
@@ -30,7 +30,7 @@ localisation:
 maintenance:
   contacts:
   type: internal
-name: Data Access Minimum Interoperability Mechanism
+name: Accessing Data Minimum Interoperability Mechanisms 
 platforms:
   - web
 releaseDate: 

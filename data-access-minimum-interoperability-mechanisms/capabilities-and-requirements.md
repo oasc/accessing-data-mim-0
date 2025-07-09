@@ -9,7 +9,7 @@
 
 > The key words MAY, MUST, MUST NOT, and SHOULD in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14), [[RFC2119](https://www.rfc-editor.org/rfc/rfc2119)], [[RFC8174](https://www.rfc-editor.org/rfc/rfc8174)] when, and only when, they appear in all capitals, as shown here. 
 
-## C.1 Data Access Modalities
+## C.1 Modalities for Accessing Data
 
 Public sector data systems should support a variety of standardized methods for accessing data, including downloads, subscriptions, streams, and real-time feeds, to ensure flexibility and usability for different types of users and use cases.
 
@@ -31,7 +31,7 @@ Systems **MAY** support access via message queue systems
 
 ## C.2 API Interface and Behavior
 
-APIs provided for data access should be well-structured, documented, and adhere to best practices for interface design and behavior, enabling consistent, predictable, and interoperable integration across systems.
+APIs provided for accessing data should be well-structured, documented, and adhere to best practices for interface design and behavior, enabling consistent, predictable, and interoperable integration across systems.
 
 ### Minimal interoperability:
 
@@ -134,7 +134,7 @@ Systems **MAY** implement stream checkpointing for reliability
 Systems **MUST** provide consistent and clear metadata accompanying datasets  
 Metadata **MUST** be available in a machine-readable format  
 
-## C.6 Data access reliability and quality
+## C.6 Reliability and quality when accessing data
 
 ### Minimal interoperability:
 
