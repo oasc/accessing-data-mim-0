@@ -5,4 +5,6 @@
 
 # Authors
 
-*
+Bart De Lathouwer
+Claus Mullie
+Thimo Thoeye
