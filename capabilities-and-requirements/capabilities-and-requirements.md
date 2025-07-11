@@ -127,7 +127,7 @@ Systems **MAY** support compression for high-volume streams
 Systems **MAY** implement stream checkpointing for reliability
 ```
 
-## C.5 Meta data (or also MIM3?)
+## C.5 Meta data 
 
 ### Minimal interoperability:
 
@@ -138,43 +138,5 @@ Metadata **MUST** be available in a machine-readable format
 
 ### Minimal interoperability:
 
-API acccess MUST include a Service License Agreement
+API acccess MUST include a Service License Agreement (see MIM3)
 
-```
-
-MIM3? up to ecosystem to define what those are 
-
-Systems MUST maintain 99.5% uptime during business hours
-Systems MUST respond to API calls within 5 seconds for standard queries
-Systems MUST implement configurable rate limiting (minimum 1000 requests/hour per client)
-Systems MUST log all API access attempts with timestamps and user identification
-Systems MUST ensure at-least-once delivery for streamed or queued data  
-Systems MUST provide monitoring or health check endpoints  
-
-```
-
-
-``` 
-
-## C.5 File Exchange Capability - MIM 3?
-
-Allow systems to transfer structured data files in standardized formats over secure channels.  
-
-- Systems MUST export data in at least one structured format: CSV, JSON, XML, or Parquet  
-- Systems MUST support at least one secure transfer method: SFTP, FTPS, HTTPS upload, or S3-compatible API  
-- Systems MUST verify file integrity (e.g., checksums)  
-- Systems SHOULD support incremental data exports  
-- Systems SHOULD include timestamp metadata  
-- Systems SHOULD provide schema or data dictionary documentation  
-
-## C.7 Event Notification Capability - MIM 3?
-
-Enable real-time push-based integration by sending notifications when data changes occur.  
-
-- Systems MUST provide real-time notifications via webhook, WebSocket, or SSE  
-- Systems MUST send structured event payloads (e.g., JSON)  
-- Systems MUST include event type, timestamp, and entity identifier  
-- Systems MUST provide event schema documentation  
-- Systems SHOULD support retries and delivery guarantees  
-
-```
