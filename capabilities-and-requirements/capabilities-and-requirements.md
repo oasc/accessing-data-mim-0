@@ -40,6 +40,7 @@ APIs **MUST** support standard content negotiation
 APIs **MUST** include metadata for last modified timestamp, available data formats, pagination, and rate limits  
 APIs **MUST** return appropriate HTTP status codes and error messages  
 APIs **MUST** follow RESTful URL conventions with predictable endpoint structures
+APIs **MUST** support pagination for datasets exceeding 1000 records
 
 ```
 ### Additional best practice to consider: 
@@ -56,7 +57,6 @@ APIs **SHOULD** communicate rate limit status via standard HTTP headers
 APIs **SHOULD** return structured error bodies  
 APIs **MAY** support partial responses or query projections  
 APIs **MAY** expose a standard health/status endpoint  
-APIs **MAY** support pagination for datasets exceeding 1000 records
 ```
 
 ## C.3 Direct File Download Capability
