@@ -86,7 +86,7 @@ Support asynchronous data delivery through standardized messaging protocols for 
 ### Minimal interoperability:
 
 Systems **MUST** implement at least one standard messaging protocol (AMQP, Apache Kafka, or MQTT)  
-Systems **MUST** support structured message formats (see MIM1) 
+Systems **MUST** support structured message formats (see MIM1)  
 Systems **MUST** provide message acknowledgment mechanisms  
 Systems **MUST** ensure at-least-once delivery guarantees  
 Systems **MUST** implement durable message storage for critical data  
