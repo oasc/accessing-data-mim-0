@@ -1,13 +1,7 @@
-<!--
-# SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: Authors
--->
+# Table of contents
 
-<!--
-# Defines the sidebar structure in GitBook
--->
-
-# Summary
-
-- [Home](README.md)
-- [Capabilities and Requirements](capabilities-and-requirements.md)
+* [Home](README.md)
+* [Objectives](objectives.md)
+* [Capabilities and Requirements](capabilities-and-requirements.md)
+* [Mechanisms](mechanisms.md)
+* [Resources](resources.md)
