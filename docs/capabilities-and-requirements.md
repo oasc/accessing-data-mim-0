@@ -1,22 +1,17 @@
-<!--
-# SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: Authors
--->
-
-# Capabilities and requirements
+# Capabilities and Requirements
 
 ## Terminology
 
-> The key words MAY, MUST, MUST NOT, and SHOULD in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14), [[RFC2119](https://www.rfc-editor.org/rfc/rfc2119)], [[RFC8174](https://www.rfc-editor.org/rfc/rfc8174)] when, and only when, they appear in all capitals, as shown here. 
+> The key words MAY, MUST, MUST NOT, and SHOULD in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14), \[[RFC2119](https://www.rfc-editor.org/rfc/rfc2119)], \[[RFC8174](https://www.rfc-editor.org/rfc/rfc8174)] when, and only when, they appear in all capitals, as shown here.
 
-## C.1 Modalities for Accessing Data
+## C.1 Machine-readable data is retrievable through the web
 
 Public sector data systems should support a variety of standardized methods for accessing data, including downloads, subscriptions, streams, and real-time feeds, to ensure flexibility and usability for different types of users and use cases.
 
 ### Minimal interoperability:
 
-Data **MUST** be retrievable via at least one standard web-based mechanism  
-Systems **MUST** allow retrieval of data in at least one machine-readable format  
+Data **MUST** be retrievable via at least one standard web-based mechanism\
+Systems **MUST** allow retrieval of data in at least one machine-readable format
 
 ```
 ### Additional best practice to consider: 
@@ -35,12 +30,11 @@ APIs provided for accessing data should be well-structured, documented, and adhe
 
 ### Minimal interoperability:
 
-APIs **MUST** be documented using a machine-readable specification  
-APIs **MUST** support standard content negotiation  
-APIs **MUST** include metadata for last modified timestamp, available data formats, pagination, and rate limits  
-APIs **MUST** return appropriate HTTP status codes and error messages  
-APIs **MUST** follow RESTful URL conventions with predictable endpoint structures
-APIs **MUST** support pagination for datasets exceeding 1000 records
+APIs **MUST** be documented using a machine-readable specification\
+APIs **MUST** support standard content negotiation\
+APIs **MUST** include metadata for last modified timestamp, available data formats, pagination, and rate limits\
+APIs **MUST** return appropriate HTTP status codes and error messages\
+APIs **MUST** follow RESTful URL conventions with predictable endpoint structures APIs **MUST** support pagination for datasets exceeding 1000 records
 
 ```
 ### Additional best practice to consider: 
@@ -67,8 +61,8 @@ Systems should provide direct file download access as a simple, universal method
 
 In situations where API access is not possible:
 
-Data **MUST** be available for direct download in at least one structured format (CSV, JSON, or XML)  
-Download URLs **MUST** be stable and predictable  
+Data **MUST** be available for direct download in at least one structured format (CSV, JSON, or XML)\
+Download URLs **MUST** be stable and predictable
 
 ```
 ### Additional best practice to consider: 
@@ -85,11 +79,11 @@ Support asynchronous data delivery through standardized messaging protocols for 
 
 ### Minimal interoperability:
 
-Systems **MUST** implement at least one standard messaging protocol (AMQP, Apache Kafka, or MQTT)  
-Systems **MUST** support structured message formats (see MIM1)  
-Systems **MUST** provide message acknowledgment mechanisms  
-Systems **MUST** ensure at-least-once delivery guarantees  
-Systems **MUST** implement durable message storage for critical data  
+Systems **MUST** implement at least one standard messaging protocol (AMQP, Apache Kafka, or MQTT)\
+Systems **MUST** support structured message formats (see MIM1)\
+Systems **MUST** provide message acknowledgment mechanisms\
+Systems **MUST** ensure at-least-once delivery guarantees\
+Systems **MUST** implement durable message storage for critical data
 
 ```
 ### Additional best practice to consider:  
@@ -110,11 +104,11 @@ Enable continuous data delivery through standardized streaming protocols for app
 
 ### Minimal interoperability:
 
-Systems **MUST** support at least one streaming protocol (WebSockets, Server-Sent Events, or HTTP/2 streaming)  
-Systems **MUST** send structured data payloads (JSON format minimum)  
-Systems **MUST** include timestamps and sequence identifiers in stream messages  
-Systems **MUST** provide connection heartbeat or keep-alive mechanisms  
-Systems **MUST** handle client disconnections gracefully with reconnection support  
+Systems **MUST** support at least one streaming protocol (WebSockets, Server-Sent Events, or HTTP/2 streaming)\
+Systems **MUST** send structured data payloads (JSON format minimum)\
+Systems **MUST** include timestamps and sequence identifiers in stream messages\
+Systems **MUST** provide connection heartbeat or keep-alive mechanisms\
+Systems **MUST** handle client disconnections gracefully with reconnection support
 
 ```
 ### Additional best practice to consider: 
@@ -127,16 +121,15 @@ Systems **MAY** support compression for high-volume streams
 Systems **MAY** implement stream checkpointing for reliability
 ```
 
-## C.5 Meta data 
+## C.5 Meta data
 
 ### Minimal interoperability:
 
-Systems **MUST** provide consistent and clear metadata accompanying datasets  
-Metadata **MUST** be available in a machine-readable format  
+Systems **MUST** provide consistent and clear metadata accompanying datasets\
+Metadata **MUST** be available in a machine-readable format
 
 ## C.6 Reliability and quality when accessing data
 
 ### Minimal interoperability:
 
 API acccess MUST include a Service License Agreement (see MIM3)
-
