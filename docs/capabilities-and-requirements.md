@@ -81,3 +81,5 @@ Examples
 * _Webhooks_
 * _Polling (as a basic fallback)_
 {% endhint %}
+
+Link to licenses MIM3
