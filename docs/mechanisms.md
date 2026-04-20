@@ -30,6 +30,12 @@ You can interpret this as a layered delivery model:
 
 Visual architecture (layer diagram)
 
+<details>
+
+<summary>Examples</summary>
+
+
+
 ### C.1 Machine-readable data is retrievable through the web
 
 Core mechanisms (MUST):
@@ -232,6 +238,8 @@ Supporting mechanisms (SHOULD):
   * Throttling policies per consumer
 * Fallback mechanisms
   * Cached responses or degraded modes
+
+</details>
 
 ***
 
