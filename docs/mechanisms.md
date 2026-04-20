@@ -2,6 +2,16 @@
 
 Here’s a concrete proposal for “mechanisms” aligned with the Y.MIM Minimal Interoperability Model (MIM). I’ve translated each capability into implementable, technology-agnostic mechanisms you can actually use in an architecture or implementation plan.
 
+
+
+&#x20;
+
+| **Capability**                                               | **REST API's**             | **Bulk File Download**          | **Publish-Subscribe Mechanism** | **SPARQL Endpoint**       |
+| ------------------------------------------------------------ | -------------------------- | ------------------------------- | ------------------------------- | ------------------------- |
+| **C.1** Machine-readable data is retrievable through the web | ✔ REST endpoints           | ✔ CSV / JSON / XML downloads    | ✔ Streams (Kafka, WebSockets)   | ✔ RDF via SPARQL endpoint |
+| **C.2** Structured & queryable access is possible            | ✔ Query params, filtering  | ✖ Limited (full dataset only)   | ✖ Not primary (event-based)     | ✔ Rich semantic querying  |
+| **C.3** Subscription to changes is possible                  | ⚠ Polling (basic fallback) | ✖ Not supported (use ATOM feed) | ✔ Native (Kafka, RabbitMQ, SSE) | ⚠ Limited websub?         |
+
 ## How to read this (practically)
 
 You can interpret this as a layered delivery model:
