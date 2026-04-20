@@ -4,7 +4,7 @@ Here’s a concrete proposal for “mechanisms” aligned with the Y.MIM Minimal
 
 
 
-&#x20;
+&#x20;**Examples:**
 
 | **Capability**                                               | **REST API's**             | **Bulk File Download**          | **Publish-Subscribe Mechanism** | **SPARQL Endpoint**       |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------- | ------------------------------- | ------------------------- |
