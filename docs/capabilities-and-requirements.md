@@ -17,12 +17,14 @@ This terminology is to be updated to ISO-style naming conventions:
 
 Public sector data systems should support a variety of standardized methods for accessing data, including downloads, subscriptions, streams, and real-time feeds, to ensure flexibility and usability for different types of users, types of data and use cases.
 
-### Minimal interoperability:
+### Requirements:
 
-* R1. Systems MUST allow retrieval of data in at least one machine-readable format. Formats can be specified through HTTP Content-Negotiation
-* R2. Data MUST be retrievable via at least one standard web-based mechanism
-* R3. Access mechanism(s) MUST be formally described
-* R4. Data Models used by payloads should be specified (see MIM2)
+* **R1.1** Systems MUST allow retrieval of data in at least one machine-readable format. Formats can be specified through HTTP Content-Negotiation
+* **R1.2** Data MUST be retrievable via at least one standard web-based mechanism
+* **R1.3** Access mechanism(s) MUST be formally described
+* **R1.4** Data Models used by payloads should be specified (see MIM2)
+
+
 
 {% hint style="info" %}
 _Examples_
@@ -35,10 +37,10 @@ _Examples_
 
 Data access should be based on a uniform structure and support querying and filtering, enabling efficient reuse and integration.
 
-### Minimal interoperability:
+### Requirements:
 
-* Systems MUST provide data through a structured and consistent interface
-* Systems MUST support basic querying and/or filtering (e.g. by time, location, attributes)
+* **R2.1** Systems MUST provide data through a structured and consistent interface
+* **R2.2** Systems MUST support basic querying and/or filtering (e.g. by time, location, attributes)
 
 ```
 ### Additional best practice to consider: 
@@ -68,10 +70,10 @@ _Examples_
 
 Use cases that require notifications or signals (such as real-time data) should allow consumers to subscribe to changes in data, enabling timely and efficient data exchange without continuous polling.
 
-### Minimal interoperability:
+### Requirements:
 
-* Systems for use cases that require notifications SHALL provide at least one mechanism to receive updates on data changes
-* Systems MAY support multiple mechanisms depending on use case
+* **R3.1** Systems for use cases that require notifications SHALL provide at least one mechanism to receive updates on data changes
+* **R3.2** Systems MAY support multiple subscription mechanisms depending on use case
 
 {% hint style="info" %}
 Examples
