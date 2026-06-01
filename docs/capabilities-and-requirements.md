@@ -80,7 +80,7 @@ Examples
 
 ## C.4 Access to information can be restricted&#x20;
 
-This restriction can be based on&#x20;
+If such restrictions are in place, they SHALL follow the requirements defined in MIM3 and MIM6, specifically:
 
 * actor identification (MIM3.C5.R0),&#x20;
 * authorization and actor roles (MIM6.C1.R4) &#x20;
