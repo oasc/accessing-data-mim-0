@@ -1,6 +1,6 @@
 # Mechanisms
 
-## M.1 REST API with JSON Description
+## M1 REST API with JSON Description
 
 #### 1. Overview
 
