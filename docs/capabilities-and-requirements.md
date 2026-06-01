@@ -9,7 +9,7 @@
 > * "MAY" is used to indicate that something is permitted
 > * "CAN" is used to indicate that something is possible, for example, that an organization or individual is able to do something
 
-## C.1 Machine-readable data is retrievable through the web
+## C1 Machine-readable data is retrievable through the web
 
 Public sector data systems should support a variety of standardized methods for accessing data, including downloads, subscriptions, streams, and real-time feeds, to ensure flexibility and usability for different types of users, types of data and use cases.
 
@@ -27,7 +27,7 @@ _Examples_
 * Payloads are machine readable  (CSV, JSON, XML, Parquet, Protobuf …)
 {% endhint %}
 
-## C.2 Access is structured and queryable
+## C2 Access is structured and queryable
 
 Data access should be based on a uniform structure and support querying and filtering, enabling efficient reuse and integration.
 
@@ -60,7 +60,7 @@ _Examples_
 * Metadata-enabled filtering
 {% endhint %}
 
-## C.3 Changes in data can be subscribed to
+## C3 Changes in data can be subscribed to
 
 Use cases that require notifications or signals (such as real-time data) should allow consumers to subscribe to changes in data, enabling timely and efficient data exchange without continuous polling.
 
@@ -78,7 +78,7 @@ Examples
 * _Polling (as a basic fallback)_
 {% endhint %}
 
-## C.4 Access to information can be restricted&#x20;
+## C4 Access to information can be restricted&#x20;
 
 If such restrictions are in place, they SHALL follow the requirements defined in MIM3 and MIM6, specifically:
 
