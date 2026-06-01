@@ -2,16 +2,12 @@
 
 ## Terminology
 
-> The key words MAY, MUST, MUST NOT, and SHOULD in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14), \[[RFC2119](https://www.rfc-editor.org/rfc/rfc2119)], \[[RFC8174](https://www.rfc-editor.org/rfc/rfc8174)] when, and only when, they appear in all capitals, as shown here.
-
-{% hint style="warning" %}
-This terminology is to be updated to ISO-style naming conventions:
-
-* "shall" indicates a requirement
-* "should" indicates a recommendation
-* "may" is used to indicate that something is permitted
-* "can" is used to indicate that something is possible, for example, that an organization or individual is able to do something
-{% endhint %}
+> The key words MAY, MUST, MUST NOT, and SHOULD in this document are to be interpreted as described when, and only when, they appear in all capitals, as follows:
+>
+> * "SHALL" indicates a requirement
+> * "SHOULD" indicates a recommendation
+> * "MAY" is used to indicate that something is permitted
+> * "CAN" is used to indicate that something is possible, for example, that an organization or individual is able to do something
 
 ## C.1 Machine-readable data is retrievable through the web
 
@@ -19,12 +15,10 @@ Public sector data systems should support a variety of standardized methods for 
 
 ### Requirements:
 
-* **R1.1** Systems MUST allow retrieval of data in at least one machine-readable format. Formats can be specified through HTTP Content-Negotiation
-* **R1.2** Data MUST be retrievable via at least one standard web-based mechanism
-* **R1.3** Access mechanism(s) MUST be formally described
+* **R1.1** Systems SHALL allow retrieval of data in at least one machine-readable format. Formats can be specified through HTTP Content-Negotiation
+* **R1.2** Data SHALL be retrievable via at least one standard web-based mechanism
+* **R1.3** Access mechanism(s) SHALL be formally described
 * **R1.4** Data Models used by payloads should be specified (see MIM2)
-
-
 
 {% hint style="info" %}
 _Examples_
@@ -39,8 +33,8 @@ Data access should be based on a uniform structure and support querying and filt
 
 ### Requirements:
 
-* **R2.1** Systems MUST provide data through a structured and consistent interface
-* **R2.2** Systems MUST support basic querying and/or filtering (e.g. by time, location, attributes)
+* **R2.1** Systems SHALL provide data through a structured and consistent interface
+* **R2.2** Systems SHALL support basic querying and/or filtering (e.g. by time, location, attributes)
 
 ```
 ### Additional best practice to consider: 
@@ -84,4 +78,12 @@ Examples
 * _Polling (as a basic fallback)_
 {% endhint %}
 
-Link to licenses MIM3
+## C.4 Access to information can be restricted&#x20;
+
+This restriction can be based on&#x20;
+
+* actor identification (MIM3.C5.R0),&#x20;
+* authorization and actor roles (MIM6.C1.R4) &#x20;
+* data asset-level policies (MIM6.C1.R4)&#x20;
+
+<br>
